@@ -1,0 +1,26 @@
+[
+    {
+        "name": "The Lord of the Rings",
+        "year": "2001",
+        "duration": "2h 58m",
+        "description": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
+        "image": "./assets/img/lordring.jpg",
+        "genres": ["Adventure", "Drama", "Fantasy"]
+    },
+    {
+        "name": "Interstellar",
+        "year": "2014",
+        "duration": "2h 49m",
+        "description": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "image": "./assets/img/Interstellar.jpg",
+        "genres": ["Adventure", "Drama", "Sci-Fi"]
+    },
+    {
+        "name": "Inception",
+        "year": "2010",
+        "duration": "2h 28m",
+        "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+        "image": "./assets/img/inception.jpeg",
+        "genres": ["Action", "Adventure", "Sci-Fi"]
+    }
+]

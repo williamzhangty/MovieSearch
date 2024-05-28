@@ -1,0 +1,133 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #cfcfcf;;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #121212;
+    color: #cfcfcf;;
+    padding: 100px 20px 20px 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #E50914; /* Cinemax red */
+}
+
+p {
+    margin: 10px 0 0;
+}
+
+/* Search container styling */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 5px 20px;
+    position: relative; /* Make this relative for absolute positioning of suggestions */
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #414141;
+    color: #CFCFCF;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #6464e2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #cfcfcf;
+}
+
+button:hover {
+    background-color: #5a5ac0;
+}
+
+/* Suggestions dropdown styling */
+.suggestions {
+    position: absolute; /* Position absolute to search-container */
+    top: 100%; /* Position it below the input */
+    
+    width: 450px; /* Match the width of the input and button together */
+    background-color: #121212;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 5;
+    display: none; /* Initially hidden */
+}
+
+.suggestions div {
+    padding: 4px;
+    color: #cfcfcf;
+    cursor: pointer;
+}
+
+.suggestions div:hover {
+    color: #e7e7e7;
+}
+
+/* Movie information display styling */
+.movie-info {
+    display: none;
+    width: 43%;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #121212;
+}
+
+.movie-details {
+    display: flex;
+    align-items: flex-start;
+}
+
+.movie-img {
+    flex: 0 0 20%; /* Set width to 30% */
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.movie-img img {
+    width: 100%; /* Ensure the image takes up the full width of its container */
+    height: auto;
+    border-radius: 4px;
+}
+
+.movie-text {
+    flex: 0 0 80%; /* Set width to 70% */
+}
+
+.movie-info h2 {
+    margin: 0;
+}
+
+.movie-info p {
+    margin: 10px 15px 26px 0;
+    color: #cfcfcf;
+}
+
+/* Genre button styling */
+.genre-button {
+    background-color: #414141;
+    border: none;
+    border-radius: 20px;
+    color: #cfcfcf;;
+    padding: 5px 10px;
+    margin: 10px 10px 10px 0;
+    cursor: pointer;
+}
+
+.genre-button:hover {
+    background-color: #575757;
+}
